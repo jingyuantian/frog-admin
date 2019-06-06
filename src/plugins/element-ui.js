@@ -4,7 +4,9 @@ import {
 	Menu,
 	Submenu,
 	MenuItem,
-	Tooltip
+	Tooltip,
+	Table,
+	TableColumn,
 } from 'element-ui'
 
 Vue.use(Button);
@@ -12,3 +14,5 @@ Vue.use(Menu);
 Vue.use(Submenu);
 Vue.use(MenuItem);
 Vue.use(Tooltip);
+Vue.use(Table);
+Vue.use(TableColumn);

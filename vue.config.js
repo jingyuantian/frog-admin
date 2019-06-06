@@ -9,8 +9,8 @@ module.exports = {
     devServer: {
 		proxy: {
 			'/api1': {
-				target: 'http://172.16.10.37:8008/',
-				changeOrigin: true,
+				target: 'http://47.111.106.119:8008/',
+				// changeOrigin: true,//跨域
 				pathRewrite: {
 					'^/api1': ''
 				}

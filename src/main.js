@@ -6,9 +6,10 @@ import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 import './plugins/element-ui.js'
 import './style/index.scss'
 import './assets/ant-icon'
+import AsyncComputed from 'vue-async-computed'
 
 Vue.config.productionTip = false;
-
+Vue.use(AsyncComputed);
 Vue.component('vScroll', VuePerfectScrollbar);
 
 Vue.prototype.$vars = store.state.style.vars;

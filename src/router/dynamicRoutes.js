@@ -1,3 +1,4 @@
+import equipment from '@/router/equipment'
 const dynamicRoutes = [
 	{
 		path: '/test',
@@ -10,6 +11,7 @@ const dynamicRoutes = [
 			role: 'root',
 		}
 	},
+	equipment,
 ];
 
 export default dynamicRoutes;
