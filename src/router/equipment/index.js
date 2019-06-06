@@ -5,7 +5,7 @@ const equ = {
 	// hidden: true,
 	meta:{
 		sideName: '设备管理',
-		icon:'subnode',
+		icon:'ant-subnode',
 	},
 	children: [
 		{
@@ -14,6 +14,7 @@ const equ = {
 			component: () => import('../../views/equipment/management'),
 			meta: {
 				sideName:'',
+				icon:' ',
 			},
 		},
 

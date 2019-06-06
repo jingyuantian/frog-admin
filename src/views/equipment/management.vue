@@ -1,7 +1,7 @@
 <template>
     <div id="management">
         <!--{{ddd}}-->
-        <el-table :data="dddd.RtnData">
+        <el-table v-if="dddd" :data="dddd.RtnData">
             <el-table-column prop="Id" label="id"/>
             <el-table-column prop="OrgId" label="组织架构"/>
             <el-table-column prop="CurrentBomId" label="BOM"/>
